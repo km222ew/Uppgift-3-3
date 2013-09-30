@@ -1,1 +1,46 @@
 /* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+
+#container
+{
+    max-width: 600px ;
+    overflow:auto;
+    margin-left: auto ;
+    margin-right: auto ;    
+    border:1px solid black;
+}
+
+#topbar
+{
+    height:250px;
+    border:1px solid black;
+    text-align:right;
+}
+#menu ul
+{
+    list-style:none; 
+    height:2em;
+    padding:0; 
+    margin:0; 
+    border: none;
+    
+}
+#menu li
+{
+    float:left; 
+    margin-right:0.13em;
+}
+#content
+{
+    
+}
+#maincontent
+{
+    float:left;
+    width:400px;
+}
+#subcontent
+{
+    border-left: 1px dashed;
+    float:left;
+    width:199px;
+}
