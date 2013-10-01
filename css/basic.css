@@ -11,9 +11,17 @@
 
 #topbar
 {
-    height:250px;
-    border:1px solid black;
+    padding:3px;
+    height:247px;
+    background-image:url('pics/coffey.jpg');
+    background-repeat:no-repeat;
+    background-position:75%35% ;
+    background-color:#4f463c;
     text-align:right;
+    font-family:Verdana;
+    font-size:0.6em;
+    color:white;
+    font-style:italic;
 }
 #menu ul
 {
