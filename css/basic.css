@@ -86,7 +86,12 @@
 h1, h2
 {
     font-family:"Times New Roman", Times, serif;
+    font-weight:normal;
     
+}
+#content
+{
+    height:425px;
 }
 #maincontent
 {
@@ -111,7 +116,7 @@ h1, h2
     line-height:2;
     border-left: 1px dashed #bfbfbf;
     margin-top:20px;
-    float:left;
+    float:right;
     width:215px;
 }
 #subcontent p
@@ -132,5 +137,10 @@ h1, h2
 }
 #bottomcontent
 {
+    margin-left:10px;
+    font-style:italic;
+    font-size:0.6em;
+    color:#786f66;
+    text-align:left;
     clear:both;
 }
